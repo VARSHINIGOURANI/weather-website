@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .weather-container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(140, 157, 151);
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    color: blue;
+  }
+  
+  .location input {
+    padding: 8px;
+    margin-right: 5px;
+  }
+  
+  .location button {
+    padding: 8px 15px;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  </style>
+</head>
+<body>
+  <div class="weather-container">
+    <h1>Weather App</h1>
+    <div class="location">
+      <input type="text" placeholder="Enter city name" id="city">
+      <button onclick="getWeather()">Get Weather</button>
+    </div>
+    <div class="weather-info" id="weatherInfo">
+      <!-- Weather info will be displayed here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

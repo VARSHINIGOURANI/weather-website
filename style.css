@@ -1,0 +1,22 @@
+/* Add your styles here */
+.weather-container {
+    text-align: center;
+    padding: 20px;
+    background-color: aquamarine;
+  }
+  h1 {
+    margin-bottom: 20px;
+    color: blue;
+  }
+  .location input {
+    padding: 8px;
+    margin-right: 5px;
+  }
+  .location button {
+    padding: 8px 15px;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
